@@ -1,0 +1,125 @@
+.nav-logo{
+    width: 40px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.footer-base{
+    margin-top: 200px !important;
+}
+.loader{
+    margin-top: 30vh;
+}
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    background: #F1F2F7;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 1px;
+    padding-top: 46px;
+    padding-left: 20px;
+  }
+
+  .content {
+    margin-left: 240px;
+    padding: 15px;
+    transition: margin-left 0.5s;
+  }
+
+  .nav-logo,.nav-logo-text{
+    font-family: poppins;
+    font-size: 15px;
+  }
+
+  .editBTN{
+    background: #F5F7FA;
+
+  }
+  .DeleteBTN{
+    background: #FEE2E2;
+
+  }
+  .SubmitBTN{
+    background: #5A67BA;
+    width: 150px;
+    height: 54px;
+    border-radius: 10px;
+
+  }
+
+  .UpdateBTN{
+    background: #5A67BA;
+    width: 158px !important;
+    height: 54px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+
+  }
+
+  .priceView{
+    background: #A855F7;
+    width: 70px;
+    height: 23px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    align-items: end !important;
+    line-height: 20px;
+    margin: 12px 0 0  72%;
+    -moz-margin: 0 0 0  230px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.FoodImage{
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+
+@media screen and (max-width: 992px) {
+    .sidebar {
+      padding-top: 10px;
+      width: 0;
+    }
+    .content {
+      padding-top: 10px;
+      margin-left: 0px;
+    }
+  
+  }
+
+  .menu{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
